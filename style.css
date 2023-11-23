@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: transparent;
+}
+
+.buttons {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+
+button {
+    background-color: pink;
+    padding: 4px;
+    border: none;
+    margin: 2px;
+    border-radius: 6px;
+    font-size:14px;
+    width: fit-content;
+    border-bottom: 1px solid rgb(81, 69, 71);
+}
+
+li {
+    border-bottom: 1px solid pink;
+    width: 75vw;
+    margin: 5px;
+}
